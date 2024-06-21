@@ -73,5 +73,3 @@ vlan = input('Введите номер влан(ов): ')
 print('interface {}'.format(interface))
 print("\n".join(dict_template[regim]).format(vlan))
 
-print('interface {}'.format(interface))
-print(''.join('{}_template'.format(regim)))
