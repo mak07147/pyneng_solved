@@ -25,5 +25,3 @@ trunk_template = [
     "switchport mode trunk",
     "switchport trunk allowed vlan {}",
 ]
-#dfsdfsdfsf
-#dfgdfgdf
