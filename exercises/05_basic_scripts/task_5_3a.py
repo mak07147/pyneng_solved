@@ -32,9 +32,11 @@ dict_template = {"access":access_template,"trunk":trunk_template}
 regim = input('Введите режим работы интерфейса (access/trunk): ')
 interface = input('Введите тип и номер интерфейса: ')
 
-vlan = input('Введите номер VLAN: ')
-vlans = input('Введите разрешенные VLANы: ')
+#vlan = input('Введите номер VLAN: ')
+#vlans = input('Введите разрешенные VLANы: ')
 
-vlan_template = {"access":vlan, "trunk":vlans}
+str(access) = "Введите номер VLAN: "
+trunk = "Введите разрешенные VLANы: "
+vlan_template = input({regim: "Введите номер VLAN: ", regim:"Введите разрешенные VLANы: "})
 print('interface {}'.format(interface))
-print("\n".join(dict_template[regim]).format(vlan_template[re]))
+print("\n".join(dict_template[regim]).format(vlan_template))
